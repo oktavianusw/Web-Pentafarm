@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @font-face {
+        font-family: "Poppins";
+        src: url("Assets/font/Poppins/Poppins-SemiBold.ttf") format("ttf");
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: "Poppins", sans-serif;
+        
+      }
+      body {
+        text-align: center;
+      }
+      .pentafarm-logo {
+        margin-top: 10px;
+      }
+      .slider {
+        background-image: url(/Assets/img/img-slider1.jpg);
+        background-size: cover;
+        padding: 10px;
+        margin-top: 10px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      #text-1 {
+        margin-top: 80px;
+        color: white;
+        font-size: 70px;
+        text-shadow: 4px 4px 20px rgb(121, 121, 121);
+      }
+
+      #text-2 {
+        color: white;
+        width: 500px;
+        font-size: 50px;
+        text-shadow: 4px 4px 20px rgb(121, 121, 121);
+      }
+
+      #btn-mulaiBelajar {
+        background-color: #92e0ac;
+        border: none;
+        width: 150px;
+        height: 40px;
+        border-radius: 4px;
+        font-size: 20px;
+        color: #214a32;
+        font-weight: bold;
+      }
+      .menu {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      table {
+        width: 100%;
+        margin-top: 20px;
+      }
+
+      #Peralatan-title {
+        color: #214a32;
+        font-weight: bold;
+        font-size: 30px;
+        align-self: flex-start;
+        margin-bottom: 20px;
+      }
+
+      #Peralatan-Lihatsemua {
+        color: #000000;
+        font-weight: bold;
+        font-size: 30px;
+        align-self: flex-end;
+        margin-bottom: 20px;
+      }
+
+      #td-left {
+        text-align: left;
+        width: 400px;
+      }
+
+      #td-right {
+        text-align: right;
+        width: 400px;
+      }
+      .btn-menu-left,
+      .btn-menu-right {
+        background-color: #c1dfcb;
+        width: 400px;
+        color: #214a32;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        border-radius: 5px;
+      }
+
+      .btn-menu-left img,
+      .btn-menu-right img {
+        display: block;
+        margin-right: 10px;
+      }
+
+      .btn-menu-right {
+        margin-left: auto;
+      }
+
+      .btn-menu-left span,
+      .btn-menu-right span {
+        margin-top: 10px;
+      }
+
+      span {
+        color: #214a32;
+        font-size: 20px;
+        font-weight: 400;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="pentafarm-logo" src="/Assets/img/logo.png" alt="" />
+    <div class="slider">
+      <p id="text-1">Ayo belajar berkebun dari rumah</p>
+      <p id="text-2">
+        Panduan lengkap belajar untuk pemula, mudah untuk difahami.
+      </p>
+      <button id="btn-mulaiBelajar">Mulai belajar</button>
+    </div>
+    <div class="menu">
+      <table>
+        <tr>
+          <td id="td-left"><p id="Peralatan-title">Peralatan</p></td>
+          <td id="td-right"><p id="Peralatan-Lihatsemua">Lihat semua</p></td>
+        </tr>
+        <tr>
+          <td id="td-left">
+            <button class="btn-menu-left">
+              <img src="/Assets/img/deteksi-hama.png" alt="Image" />
+              Deteksi Hama
+            </button>
+          </td>
+          <td id="td-right">
+            <button class="btn-menu-right">
+              <img src="/Assets/img/deteksi-hama.png" alt="Image" />
+              Kebutuhan Pupuk
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td id="td-left">
+            <button class="btn-menu-left">
+              <img src="/Assets/img/deteksi-hama.png" alt="Image" />
+              Deteksi Hama
+            </button>
+          </td>
+          <td id="td-right">
+            <button class="btn-menu-right">
+              <img src="/Assets/img/deteksi-hama.png" alt="Image" />
+              Kebutuhan Pupuk
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
